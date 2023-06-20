@@ -47,6 +47,13 @@ body {
   border: none;
   outline: none;
 }
+
+@media (max-width: 800px) {
+  .button-wpp {
+    width: 64px;
+    height: 64px;
+  }
+}
 .button-wpp {
   width: 74px;
   height: 74px;
