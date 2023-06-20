@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <footer className="px-10 lg:px-40">
       <div className="py-10 flex flex-col lg:flex-row lg:items-center lg:justify-between">
-        <p className="text-3xl mb-10 text-center gradient-text font-bold lg:mb-0 lg:text-left">
+        <p className="text-3xl mb-10  gradient-text font-bold lg:mb-0 text-left">
           Construindo o futuro digital <br /> que você merece, hoje!
         </p>
         <div className="text-white flex flex-col gap-5">

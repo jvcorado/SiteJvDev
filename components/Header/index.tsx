@@ -22,7 +22,7 @@ export const Header = () => {
         <div className="flex lg:flex-1">
           <a
             href="#"
-            className="-m-1.5 ps-40 gradient-text text-3xl font-extralight"
+            className="-m-1.5 lg:ps-40 gradient-text text-3xl font-extralight"
           >
             JVC developer
           </a>
