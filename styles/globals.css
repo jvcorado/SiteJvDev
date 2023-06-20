@@ -50,8 +50,8 @@ body {
 
 @media (max-width: 800px) {
   .button-wpp {
-    width: 64px;
-    height: 64px;
+    width: 54px !important;
+    height: 54px !important;
   }
 }
 .button-wpp {
