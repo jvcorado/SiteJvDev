@@ -6,21 +6,6 @@ body {
   background-image: linear-gradient(60deg, #29323c 0%, #000 100%);
 }
 
-#video-background {
-  position: fixed; /* Posição fixa para cobrir toda a área do site */
-  top: 0;
-  left: 0;
-  min-width: 100%; /* Ajuste a largura e altura mínimas conforme necessário */
-  min-height: 100%;
-  z-index: -1; /* Define uma posição no fundo para que outros elementos possam ser colocados em cima */
-}
-.bg {
-  background-image: url(../public/halftone_background_12.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .gradient-text {
   background: linear-gradient(
       to bottom,
@@ -37,69 +22,6 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-/* 
-.gradient-text-two {
-  background-image: linear-gradient(
-    to top,
-    lightgrey 0%,
-    lightgrey 1%,
-    #e0e0e0 26%,
-    #efefef 48%,
-    #d9d9d9 75%,
-    #bcbcbc 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
-.tracking-in-expand-fwd-top {
-  animation: tracking-in-expand-fwd-top 1.2s cubic-bezier(0.215, 0.61, 0.355, 1)
-    both;
-}
-
-@keyframes tracking-in-expand-fwd-top {
-  0% {
-    letter-spacing: -0.5em;
-    transform: translateZ(-700px) translateY(-500px);
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    transform: translateZ(0) translateY(0);
-    opacity: 1;
-  }
-}
-
-.movendo {
-  animation: slide-bck-center 0.45s cubic-bezier(0.47, 0, 0.745, 0.715) 1s
-    infinite alternate backwards;
-}
-
-@keyframes slide-bck-center {
-  0% {
-    transform: translateZ(0);
-  }
-  100% {
-    transform: translateZ(-400px);
-  }
-}
-
-/* .bg-card {
-  background-color: #e4e4e1;
-  background-image: radial-gradient(
-      at top center,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(0, 0, 0, 0.03) 100%
-    ),
-    linear-gradient(
-      to top,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(143, 152, 157, 0.6) 100%
-    );
-  background-blend-mode: normal, multiply;
-} */
 
 .bg-card:hover {
   background-color: #e4e4e1;
