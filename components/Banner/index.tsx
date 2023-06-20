@@ -26,8 +26,9 @@ export const Banner = () => {
       </svg> */}
       <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="text-white flex flex-col flex-1 gap-6">
-          <h1 className="text-6xl lg:text-7xl gradient-text tracking-in-expand-fwd-top">
-            Inovação e criatividade em cada pixel, seu site do amanhã, hoje!
+          <h1 className="text-6xl lg:text-7xl gradient-text tracking-in-expand-fwd-top pb-5">
+            Inovação e <strong className="">criatividade</strong> em cada pixel,
+            seu site do amanhã,<strong> hoje!</strong>
           </h1>
           <p className="text-2xl gradient-text">
             Comprometidos com soluções inovadoras, criamos sites impactantes,
