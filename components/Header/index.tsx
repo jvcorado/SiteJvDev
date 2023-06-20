@@ -16,17 +16,15 @@ export const Header = () => {
   return (
     <header className="absolute inset-x-0 top-0 z-50 sticky top-0 bg">
       <nav
-        className="flex items-center justify-between p-6 lg:px-8"
+        className="flex items-center justify-between p-6 lg:px-8 lg:pt-10"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
-            <span className="sr-only">jvc dev</span>
-            {/*  <Image
-              className="h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt=""
-            /> */}
+          <a
+            href="#"
+            className="-m-1.5 ps-40 gradient-text text-3xl font-extralight"
+          >
+            JVC developer
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -39,12 +37,12 @@ export const Header = () => {
             <Bars3Icon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-12 text-white">
+        <div className="hidden lg:flex lg:gap-x-12 gradient-text ">
           {navigation.map((item) => (
             <a
               key={item.name}
               href={item.href}
-              className="text-base font-semibold leading-6"
+              className="text-lg font-semibold leading-6"
             >
               {item.name}
             </a>
@@ -66,12 +64,7 @@ export const Header = () => {
         <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Jv Dev</span>
-              {/*  <Image
-                className="h-8 w-auto"
-                src=""
-                alt=""
-              /> */}
+              JVC
             </a>
             <button
               type="button"

@@ -9,28 +9,20 @@ export const Servicos = () => {
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
         <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
+          title="Desenvolvimento de Websites Responsivos"
+          text="Criação de sites modernos e visualmente atraentes, adaptados para diferentes dispositivos."
         ></CardServices>
         <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
+          title="Otimização de Desempenho"
+          text="Aprimoramento do desempenho de sites existentes para carregamento rápido e experiência do usuário aprimorada."
         ></CardServices>
         <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
+          title="Integração de Interfaces de Usuário: "
+          text=" Criação de interfaces interativas e intuitivas para uma experiência agradável ao navegar nos sites."
         ></CardServices>
         <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
-        ></CardServices>
-        <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
-        ></CardServices>
-        <CardServices
-          title="Title"
-          text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, error."
+          title="Manutenção e Suporte"
+          text="Suporte técnico contínuo, atualizações de segurança e manutenção para manter os sites em pleno funcionamento."
         ></CardServices>
       </div>
     </section>
