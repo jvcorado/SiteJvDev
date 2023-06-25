@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Sobre = () => {
   return (
     <section className="px-10 pb-32 lg:px-40 lg:pt-20 lg:pb-60 flex flex-col lg:flex-row-reverse items-center justify-between gap-16">
-      <div className="gradient-text text-right lg:flex-1">
+      <div className="gradient-text lg:text-right lg:flex-1">
         <h1 className="text-3xl lg:text-6xl ">
           Como <strong>Web Developer</strong>
         </h1>

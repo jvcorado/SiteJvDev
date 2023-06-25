@@ -3,8 +3,8 @@ import { CardServices } from "./CardServices";
 
 export const Servicos = () => {
   return (
-    <section className="px-10 pb-20 lg:px-40 flex flex-col gap-14">
-      <h1 className="text-4xl pb-3 lg:pb-5 lg:text-6xl gradient-text text-center">
+    <section className="px-10 pb-20 lg:px-40 flex flex-col gap-10 lg:gap-14">
+      <h1 className="text-4xl  lg:pb-5 lg:text-6xl gradient-text text-center">
         Nossos <strong>Serviços</strong>
       </h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 ">
