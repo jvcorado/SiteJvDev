@@ -24,7 +24,7 @@ export const Banner = () => {
           </radialGradient>
         </defs>
       </svg> */}
-      <div className="flex flex-col lg:flex-row items-center justify-between bg-amber-200">
+      <div className="flex flex-col lg:flex-row items-center justify-between">
         <div className="text-white flex flex-col flex-1 gap-6">
           <h1 className="text-6xl lg:text-7xl gradient-text tracking-in-expand-fwd-top pb-5">
             Inovação e <strong className="">criatividade</strong> em cada pixel,
@@ -36,7 +36,7 @@ export const Banner = () => {
             tecnologia e design atualizados.
           </p>
         </div>
-        <div className="flex-1 flex items-center justify-end movendo bg-orange-700">
+        <div className="flex-1 flex items-center justify-end movendo">
           <Image src={ImgBanner} alt="" className="movendo"></Image>
         </div>
       </div>
