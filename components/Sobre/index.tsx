@@ -1,6 +1,7 @@
 import React from "react";
 import Teclado from "../../public/teclado.png";
 import Image from "next/image";
+import { Animacao } from "../Animacao";
 
 export const Sobre = () => {
   return (
@@ -18,7 +19,7 @@ export const Sobre = () => {
         </p>
       </div>
       <div className="">
-        <Image src={Teclado} alt={""}></Image>
+        <Animacao></Animacao>
       </div>
     </section>
   );

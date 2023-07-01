@@ -1,6 +1,7 @@
 import React from "react";
 import ImgBanner from "../../public/img-banner.png";
 import Image from "next/image";
+import { Button } from "../Button";
 
 export const Banner = () => {
   return (
@@ -35,6 +36,7 @@ export const Banner = () => {
             gerando resultados extraordinários, destacando negócios com
             tecnologia e design atualizados.
           </p>
+          <Button></Button>
         </div>
         <div className="flex-1 flex items-center justify-end movendo">
           <Image src={ImgBanner} alt="" className="movendo"></Image>

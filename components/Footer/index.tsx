@@ -1,4 +1,5 @@
 import React from "react";
+import { SocialMedia } from "./SocialMedia";
 
 export const Footer = () => {
   return (
@@ -21,8 +22,7 @@ export const Footer = () => {
       <div className="py-5 flex flex-col lg:flex-row items-center lg:justify-between gradient-text">
         <p className="text-lg gradient-text">Copyright Ⓒ 2023 JotaTech.</p>
         <ul className="flex items-center gap-10">
-          <li>Linkedin</li>
-          <li>Instagram</li>
+          <SocialMedia></SocialMedia>
         </ul>
       </div>
     </footer>
